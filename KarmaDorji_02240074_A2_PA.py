@@ -150,6 +150,9 @@ class GameCollection:
                 self.overall_scores["Trivia"] = self.trivia_game.score
             elif choice == "4":
                 print("Linking to Pokemon Card Binder Manager...")
+                from KarmaDorji_02240074_A2_PB import PokemonBinder
+                Game = PokemonBinder()
+                Game.run()
             elif choice == "5":
                 self.show_scores()
             elif choice == "6":
